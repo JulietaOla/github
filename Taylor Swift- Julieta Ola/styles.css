@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;  
+    font-family: 'IM Fell English', serif;
+}
+
+/* color de links */
+div ul li a{
+    color:#fcca57
+}
+
+/* listas de nav */
+ul li{
+    list-style: none; 
+    background-color:#000000;
+    color:#fcca57;
+    display: inline-block;
+    padding: 05px; 
+    margin: 05px;
+    font-size: 125%;
+}
+
+/* color de los links al pasar el cursor */
+.link:hover {
+    color: white;
+}
+
+
+/* fondo principal */
+.fondo-inicio {
+    background-image: url(./assets/taylor\ swift\ fondo\ inicio.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* fondo de pagina de contacto */
+.fondo-contacto {
+    background-image: url(./assets/taylor\ swift\ fondo\ contacto.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* section inicio */
+.section {
+    background-color: #fcca57;
+    width: 500px;
+    height: 750px;
+
+}
+
+/* articulo inicio */
+.article-grid {
+    display: grid;
+    grid-template-rows: 50px 400px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 130%;
+    font-weight:bolder;
+}
+
+/* flex en el header */
+.header-wrapper{
+    background-color: #fcca57;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*logo de la pagina con vinculo */
+
+.logo {
+    position: relative;
+    top: 0px;
+}
+
+/* posicion de nav */
+.menu-fixed {
+    display: flex;
+}
+
+/* formulario */
+.form{
+    width: 320px;
+    background-color:#fcca57;
+    color:#000000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+/* imput y textarea del formulario */
+input, textarea{
+    outline: none;
+    border: 0;
+}
+
+/* ajustes de diseño del formulario */
+.formulario-diseño{
+    border: solid 1px #999;
+    padding: 10px;
+}
+
+/* boton del formulario */
+.boton{
+    border-radius: 3px;
+    padding: 20px;
+    margin-left: 50px;
+    width: 200px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fcca57;
+}
+
+/* color al pasar el cursor en el boton */
+.boton:hover{
+    color:white;
+}
+
+/* titulo de galeria */
+.titulo-galeria{
+    margin-left: 20px;
+    padding-top: 30px;
+    color:#fcca57
+}
+
+/* fondo de galeria */
+.fondo-galeria{
+    background-color: #000000;
+    color: #000000;
+}
+
+/* imagenes que contienen la galeria */
+.imagenes-galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/* section de galeria */
+.section-galeria{
+    background-color:#fcca57;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 150px;
+}
+
+/* articulo de galeria */
+.article-galeria{
+    padding: 10px;
+    margin: 20px;
+    font-size: 130%;
+    font-weight:bolder;
+}
+
+/* fondo de discografia */
+.fondo-discografia{
+    background-image: url(./assets/reputation\ disco.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* iframes de spotify */
+.iframes{
+    margin: 20px;
+    padding: 10px;
+}
+
+/* titulo de discografia */
+.titulo-disco{
+    padding: 20px;
+    margin: 10px;
+}
+
+/* fondo de mercancia */
+.fondo-merch{
+    background-image: url(./assets/taylor\ swift\ fondo\ merch\ .jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* imagenes de la ropa */
+.imagenes-merch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+/* nombres de la mercancia */
+.lista-merch{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* pie de pagina */
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color:#fcca57;
+    color:#000000;
+    padding: 10px;
+}
+
+/* pie de pagina colores de links */
+footer div ul li a{
+    color: #fcca57;
+}
+
+/*media query tablet*/
+@media screen and (max-width: 760px) {
+    .header-wrapper{
+        flex-direction: column;
+    }
+}
+
+/*media query mobile*/
+@media screen and (max-width: 360px) {
+    .imagenes-galeria{
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .header-wrapper{
+        display: grid;
+        grid-template-columns: 10px;
+    }
+    
+    .section{
+        background-color: #fcca57;
+        display:grid;
+        margin-top: 10px;
+        width: 360px;
+        height: 1100px;
+    }
+    .div-parrafo-uno{
+        display: grid;
+        width: 300px;
+    }
+    .div-parrafo-dos{
+        display: grid;
+        width: 300px;
+        margin-top: 220px;
+    }
+    .footer{
+        display: grid;
+        justify-content: center;
+    }
+
+}
