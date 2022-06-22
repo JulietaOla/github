@@ -25,7 +25,6 @@ ul li{
     color: white;
 }
 
-
 /* fondo principal */
 .fondo-inicio {
     background-image: url(./assets/taylor\ swift\ fondo\ inicio.jpg);
@@ -48,8 +47,7 @@ ul li{
 .section {
     background-color: #fcca57;
     width: 500px;
-    height: 750px;
-
+    height: 900px;
 }
 
 /* articulo inicio */
@@ -135,14 +133,6 @@ input, textarea{
     color: #000000;
 }
 
-/* imagenes que contienen la galeria */
-.imagenes-galeria{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-}
 
 /* section de galeria */
 .section-galeria{
@@ -155,9 +145,14 @@ input, textarea{
 /* articulo de galeria */
 .article-galeria{
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     font-size: 130%;
     font-weight:bolder;
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
 }
 
 /* fondo de discografia */
@@ -190,21 +185,11 @@ input, textarea{
     background-size: cover;
 }
 
-/* imagenes de la ropa */
-.imagenes-merch{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: center;
+/* espacio de las imagenes merch*/
+.merch{
+    margin: 10px;
+    padding: 10px;
 }
-
-/* nombres de la mercancia */
-.lista-merch{
-    display: flex;
-    justify-content: space-around;
-}
-
 
 /* pie de pagina */
 .footer {
@@ -243,7 +228,7 @@ footer div ul li a{
         display:grid;
         margin-top: 10px;
         width: 360px;
-        height: 1100px;
+        height: 1400px;
     }
     .div-parrafo-uno{
         display: grid;
@@ -252,7 +237,6 @@ footer div ul li a{
     .div-parrafo-dos{
         display: grid;
         width: 300px;
-        margin-top: 220px;
     }
     .footer{
         display: grid;
@@ -262,6 +246,7 @@ footer div ul li a{
 }
 /*botones que se le agrega animacion*/
 .botones{
+    list-style: none;
     background: #000000;
     border: 1px solid #000000;
     border-radius: 5px;
