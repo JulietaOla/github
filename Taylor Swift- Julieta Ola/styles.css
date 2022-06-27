@@ -47,7 +47,7 @@ ul li{
 .section {
     background-color: #fcca57;
     width: 500px;
-    height: 900px;
+    height: 950px;
 }
 
 /* articulo inicio */
@@ -150,6 +150,7 @@ input, textarea{
     font-weight:bolder;
 }
 
+/* carrusel para imagenes*/
 .carrusel{
     display: flex;
     justify-content: center;
@@ -157,11 +158,25 @@ input, textarea{
 
 /* fondo de discografia */
 .fondo-discografia{
-    background-image: url(./assets/reputation\ disco.jpg);
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000000;
+    color: #000000;
+}
+
+/*article de discografia */
+.article-discografia{
+    padding: 10px;
+    margin: 10px;
+    font-size: 150%;
+    font-weight:bolder;
+}
+
+/*section de discografia */
+.section-discografia{
+    background-color: #fcca57;
+    padding: 3px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 3px;
 }
 
 /* iframes de spotify */
@@ -190,6 +205,7 @@ input, textarea{
     margin: 10px;
     padding: 10px;
 }
+
 
 /* pie de pagina */
 .footer {
