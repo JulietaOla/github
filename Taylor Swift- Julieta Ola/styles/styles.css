@@ -27,7 +27,7 @@ ul li{
 
 /* fondo principal */
 .fondo-inicio {
-    background-image: url(./assets/taylor\ swift\ fondo\ inicio.jpg);
+    background-image: url(../assets/taylor\ swift\ fondo\ inicio.jpg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ ul li{
 
 /* fondo de pagina de contacto */
 .fondo-contacto {
-    background-image: url(./assets/taylor\ swift\ fondo\ contacto.jpg);
+    background-image: url(../assets/taylor\ swift\ fondo\ contacto.jpg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ input, textarea{
 
 /* fondo de mercancia */
 .fondo-merch{
-    background-image: url(./assets/taylor\ swift\ fondo\ merch\ .jpg);
+    background-image: url(../assets/taylor\ swift\ fondo\ merch\ .jpg);
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
