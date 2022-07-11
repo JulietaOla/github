@@ -1,0 +1,9 @@
+En el archivo index.html (Taylor Swift) sume el SEO con las siguientes caracteristicas:
+
+Descripcion: Mediante la etiqueta meta name description, agregue el siguiente parrafo
+que explica en pocas palabras el contenido de mi sitio: "Taylor Swift reputation tour. 
+En honor a la cantante repasaremos algunos de sus ultimos albums junto con el contenido que trajo reputation."
+
+Palabras clave: mediante la etiqueta meta name keywords, agregue las palabras clave que acompañaran
+a todas las paginas de mi sitio: "musica, pop, instrumentos, ropa, concierto, taylor swift, cantante, 
+autora, escritura, cultura"

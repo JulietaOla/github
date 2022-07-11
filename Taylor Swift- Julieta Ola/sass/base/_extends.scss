@@ -1,0 +1,15 @@
+%botones {
+    list-style: none;
+    background: $negro;
+    border: 1px solid $negro;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    color: $amarillo;
+    transition: all 1s;
+
+    &:hover{
+        transform: scale(1.1);
+        color: $blanco;
+    }
+}

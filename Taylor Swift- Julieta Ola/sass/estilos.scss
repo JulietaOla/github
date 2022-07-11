@@ -1,0 +1,23 @@
+// Partials de /base.
+@import "./base/reset";
+@import "./base/variables";
+@import "./base/extends";
+@import "./base/mixins";
+
+// Partials de /layout.
+@import "./layout/background";
+@import "./layout/headerNavbar";
+@import "./layout/footer";
+
+// Partials de /pages. 
+@import "./pages/index";
+@import "./pages/contact";
+@import "./pages/disco";
+@import "./pages/gallery";
+@import "./pages/merch";
+
+// Partials de /mediaquery.
+@import "./mediaquery/mediaquery";
+
+
+

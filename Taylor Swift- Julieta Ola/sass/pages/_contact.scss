@@ -1,0 +1,33 @@
+input, textarea{
+    outline: none;
+    border: 0;
+}
+
+.boton{
+    border-radius: 3px;
+    padding: 20px;
+    margin-left: 50px;
+    width: 200px;
+    text-decoration: none;
+    background-color:$negro;
+    color: $amarillo;
+}
+
+.form{
+    width: 320px;
+    background-image: linear-gradient(to left, $amarilloClaro, $amarillo);
+    color: $negro;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bolder;
+
+    .formulario-diseño{
+        border: solid 1px $gris;
+        padding: 10px;
+    }
+    
+}
+
+
