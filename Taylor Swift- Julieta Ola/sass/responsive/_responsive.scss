@@ -4,6 +4,7 @@
     }
 }
 
+// celular.
 @media screen and (max-width: 360px) {
     .imagenes-galeria{
         display: grid;
@@ -13,12 +14,11 @@
         display: grid;
         grid-template-columns: 10px;
     }
-    
     .section{
         background-color: $amarillo;
         display:grid;
         margin-top: 10px;
-        width: 360px;
+        width: 300px;
         height: 1400px;
     }
     .div-parrafo-uno{

@@ -99,6 +99,7 @@
   background-color: #fcca57;
   width: 500px;
   height: 950px;
+  margin: 10px;
 }
 .section .article-grid {
   display: grid;
